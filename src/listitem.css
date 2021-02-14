@@ -1,0 +1,28 @@
+.list {
+	background-color: #4f8a8b;
+	height: 40px;
+	font-size: 1rem;
+	width:250px;
+	margin: 20px auto;
+	border-radius: 10px;
+	color: #fff;
+
+}
+.list p {
+	font-weight: bold;
+	padding: 10px;
+	position: relative;
+}
+.list p .faicon {
+	position: absolute;
+	right: 10px;
+	cursor: pointer;
+}
+.list p input {
+	background: transparent;
+	border: 0;
+	outline: none;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: bold;
+}

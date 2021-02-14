@@ -1,0 +1,54 @@
+body {
+
+  background-color: #12CAD6;
+}
+.app {
+  background-color: #fcf876;
+  height: 500px;
+  width:400px;
+  margin: 50px auto;
+  position: relative;
+
+}
+#to-do-form input {
+  background-color: #a2de96;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+  border-radius: 10px;
+  color: #fff;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding-left: 10px;
+}
+#to-do-form input::placeholder {
+  color:rgba(255,255,255,0.5);
+  font-weight: bolder;
+  font-size: 1rem;
+  padding-left: 10px;
+}
+.addButton, .clearButton {
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  border:0;
+  background-color: #e7305b;
+  font-weight: bold;
+  color: #fff;
+  outline: none;
+  font-size: 1rem;
+
+}
+#to-do-form button {
+  width:100px;
+
+}
+
+.app .clearButton {
+  position: absolute;
+  bottom: 20px;
+  left: 60px;
+  width:250px; 
+}
